@@ -1,0 +1,14 @@
+mkdir  learn_git_again
+cd 	 learn_git_again
+touch  thrid.txt
+git    init
+git add *
+git commit -m "adding thrid.txt"
+git log
+touch fourth.txt
+git add *
+git commit -m "removing thrid.txt"
+git log
+git config gloabl core.pager cat-
+git config --global --list
+
